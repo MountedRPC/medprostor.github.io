@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <meta name="description" content="описание">
+    <meta name="canonical" href="Ссылка">
+    <meta name="keywords" href="Ключ слова">
+    <meta property="og:site_name" content="title">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="title ">
+    <meta property="og:description" content="description">
+    <meta property="og:url" content="https://ecocamp.by/">
+    <meta property="og:image" content="img">
+    <meta property="og:image:secure_url" content="img">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="article:published_time" content="date">
+    <meta property="article:modified_time" content="date">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="url">
+    <meta name="twitter:title" content="title">
+    <meta name="twitter:description" content="description">
+    <!-- img logo -->
+    <link rel="icon" href="static/img/home/icon-logo.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/home/icon-logo.png">
+    <meta name="msapplication-TileImage" content="static/img/home/icon-logo.png">
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/bootstrap5/bootstrap.css">
+    <!-- custom-style -->
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="static/css/catalog.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- metrics -->
+
+</head>
+
+<body>
+    <section id="header" class="mb-5">
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-2">
+                <a href="/" class="d-flex align-items-center col-md-2 mb-3 mb-md-0 text-dark text-decoration-none">
+                    <img class="bi me-2 img-fluid" width="160" src="static/img/home/logo.png" />
+                </a>
+                <div class="col-4 display-market-first">
+                    <img class="img-fluid" src="static/img/home/image.psd.png" alt="" srcset="">
+                </div>
+                <ul class="nav justify-content-end ">
+                    <li class="nav-item me-4 ">
+                        <div class=" text-center" style="font-size: 14px;">
+                            <p class="m-0"><a style="color: #344863; text-decoration: none;" href="tel:+375 33 123 12 12">+375 33 123 12 12</a>
+                            </p>
+                            <p class="m-0" style="color: #7D879C;">Круглосуточно</p>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" type="button" class="btn display-button-showf-first btn-outline-primary me-2 background-button-outline   background-icons">
+                            <i class="bi bi-person"></i> Войти
+                        </a>
+                        <a href="login.html" type="button" class="display-button-showT-first btn btn-outline-primary me-2 background-button-outline   background-icons">
+                            <i class="bi bi-person"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary me-2 rounded-circle background-button background-icons">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn display-button-showf-first btn-outline-primary background-icons background-button">
+                            <i class="bi bi-cart"></i> Корзина
+                        </button>
+                        <button type="button" class="display-button-showT-first btn btn-outline-primary background-icons background-button">
+                            <i class="bi bi-cart"></i>
+                        </button>
+                    </li>
+                </ul>
+            </header>
+            <div id="search-block">
+                <div class="input-group mb-3">
+                    <span class="input-group-text span-color-group" id="basic-addon1"><i
+                            class="bi bi-search"></i></span>
+                    <input type="text" class="input-search form-control" placeholder="По названию или веществу..." aria-describedby="button-addon2">
+                    <button class="button-search btn btn-primary" type="button" id="button-addon2">
+                        Найти
+                    </button>
+                </div>
+            </div>
+            <div class="nav-scroller py-1 mb-2">
+                <div class=" d-flex justify-content-center">
+                    <nav class="nav d-flex justify-content-between">
+                        <a class="p-2 a-type" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Лекарства</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Витамины и БАДы</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Красота</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Гигиена</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Линзы</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Мать и дитя</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class="me-3 text-decor">Медтовары</h5>
+                        </a>
+                        <a class="p-2 a-type link-secondary" href="catalog_category.html">
+                            <h5 class=" text-decor">Медтехника</h5>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between">
+                    <a class="p-2  a-type a-font-size-nav3 button-sales" href="catalog_category.html">
+                        <i class="bi bi-percent"></i> Скидки
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Аллергия
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Диабет
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Гигиена
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Антибиотики
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Избыточный вес
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Пищеварительная система
+                    </a>
+                    <a class="p-2 a-type link-secondary a-font-size-nav3" href="catalog_category.html">
+                        Простуда и грипп
+                    </a>
+                    <a class="p-2  a-type a-font-size-nav3 button-more" href="meta.html">
+                        Еще 30
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="mb-5">
+        <main>
+            <div class="container">
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="bread-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li style="color: #C71878;" class="breadcrumb-item active" aria-current="page">
+                            Каталог
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-3 display-filter-show">
+                        <div class="card mb-5" style="border-radius: 15px;border-color: #E0E9FF;">
+                            <div class="card-header" style="background-color: #70C311; color: #FFFFFF;border-top-left-radius: 15px;
+                            border-top-right-radius: 15px;">
+                                Категории
+                            </div>
+                            <div class="scrollbar" id="style-1">
+                                <div class="card-body" style=" max-height: 450px;">
+                                    <div class="force-overflow">
+                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">
+                                                    Лекарства
+                                                </a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Витамины</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Линзы</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">COVID-19</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Здоровье</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Мать и дети</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Гигиена</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Медтехника</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Медтовары</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Диабет</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Аллергия</a>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <a href="catalog_category.html" class="filter-item">Простуда</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-5" style="border-radius: 15px;border-color: #E0E9FF;">
+                            <div class="card-header" style="background-color: #70C311; color: #FFFFFF;border-top-left-radius: 15px;
+                            border-top-right-radius: 15px;">
+                                Производитель
+                            </div>
+                            <div class="scrollbar" id="style-1">
+                                <div class="card-body" style=" max-height: 350px;">
+                                    <div class="force-overflow">
+                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="1">
+                                                        ВТФ
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="1">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="2">
+                                                        Curtis
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="2">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="3">
+                                                        ФармВилар
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="3">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="4">
+                                                        Опелла Хелскеа
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="4">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="6">
+                                                        КоролевФарм
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="6">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="7">
+                                                        Master Pharm S.A.
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="7">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="8">
+                                                        Грокам
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="8">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="9">
+                                                        PILULI
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="9">
+                                                </div>
+                                            </li>
+
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="10">
+                                                        ГринСайд
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="10">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="11">
+                                                        Стрессоват
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="11">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="12">
+                                                        Орлинг
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="12">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="13">
+                                                        МираксБио
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="13">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card  mb-5" style="border-radius: 15px;border-color: #E0E9FF;">
+                            <div class="card-header" style="background-color: #70C311; color: #FFFFFF;border-top-left-radius: 15px;
+                            border-top-right-radius: 15px;">
+                                Страна
+                            </div>
+                            <div class="scrollbar" id="style-1">
+                                <div class="card-body" style=" max-height: 350px;">
+                                    <div class="force-overflow">
+                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="1s">
+                                                        США
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="1s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="2s">
+                                                        Германия
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="2s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="3s">
+                                                        Франция
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="3s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="4s">
+                                                        Португалия
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="4s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="6s">
+                                                        Беларусь
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="6s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="7s">
+                                                        Россия
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="7s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="8s">
+                                                        Испания
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="8s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="9s">
+                                                        Греция
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="9s">
+                                                </div>
+                                            </li>
+
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="10s">
+                                                        Польша
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="10s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="11s">
+                                                        Казахстан
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="11s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="12s">
+                                                        Турция
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="12s">
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item list-item-padding">
+                                                <div class="form-check" style="padding-left:0;">
+                                                    <label class="form-check-label" for="13s">
+                                                        Китай
+                                                    </label>
+                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="13s">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4" style="border-radius: 15px;border-color: #E0E9FF;">
+                            <div class="card-header" style="background-color: #70C311; color: #FFFFFF;border-top-left-radius: 15px;
+                            border-top-right-radius: 15px;">
+                                Розничная цена
+                            </div>
+                            <div class="card-body" style=" max-height: 350px;">
+                                <div id="RangeSlider" class="range-slider">
+                                    <div>
+                                        <div class="range-slider-val-left"></div>
+                                        <div class="range-slider-val-right"></div>
+                                        <div class="range-slider-val-range"></div>
+
+                                        <span class="range-slider-handle range-slider-handle-left"></span>
+                                        <span class="range-slider-handle range-slider-handle-right"></span>
+
+                                        <div class="range-slider-tooltip range-slider-tooltip-left">
+                                            <span class="range-slider-tooltip-text"></span>
+                                        </div>
+
+                                        <div class="range-slider-tooltip range-slider-tooltip-right">
+                                            <span class="range-slider-tooltip-text"></span>
+                                        </div>
+                                    </div>
+
+                                    <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" step="1">
+                                    <input type="range" class="range-slider-input-right" tabindex="0" max="100" min="0" step="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-grid ">
+                            <button class="btn btn-success">Применить</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row display-marketing-show">
+                            <div class="col-md-6">
+                                <img src="static/img/home/1sales.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="static/img/home/1sales.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="row mb-3 mt-4">
+                            <div class="col-auto text-start">
+                                <button class="btn btn-secondary display-offcanvas-button-show" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Фильтры
+                                </button>
+                                <div class="offcanvas offcanvas-start" style="max-width: 80%;" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header" style="background-color: #70C311;color: #FFFFFF;">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Фильтры</h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="card mb-4" style="border-color: #E0E9FF;">
+                                            <div class="card-header" style=" color: #344863">
+                                                Категории
+                                            </div>
+                                            <div class="scrollbar" id="style-1">
+                                                <div class="card-body" style=" max-height: 450px;">
+                                                    <div class="force-overflow">
+                                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">
+                                                                    Лекарства
+                                                                </a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Витамины</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Линзы</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">COVID-19</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Здоровье</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Мать и дети</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Гигиена</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Медтехника</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Медтовары</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Диабет</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Аллергия</a>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <a href="catalog_category.html" class="filter-item">Простуда</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-4" style="border-color: #E0E9FF;">
+                                            <div class="card-header" style="color: #344863;">
+                                                Производитель
+                                            </div>
+                                            <div class="scrollbar" id="style-1">
+                                                <div class="card-body" style=" max-height: 350px;">
+                                                    <div class="force-overflow">
+                                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="1">
+                                                                        ВТФ
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="1">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="2">
+                                                                        Curtis
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="2">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="3">
+                                                                        ФармВилар
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="3">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="4">
+                                                                        Опелла Хелскеа
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="4">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="6">
+                                                                        КоролевФарм
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="6">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="7">
+                                                                        Master Pharm S.A.
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="7">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="8">
+                                                                        Грокам
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="8">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="9">
+                                                                        PILULI
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="9">
+                                                                </div>
+                                                            </li>
+
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="10">
+                                                                        ГринСайд
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="10">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="11">
+                                                                        Стрессоват
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="11">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="12">
+                                                                        Орлинг
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="12">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="13">
+                                                                        МираксБио
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="13">
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-4" style="border-color: #E0E9FF;">
+                                            <div class="card-header" style="color: #344863;">
+                                                Страна
+                                            </div>
+                                            <div class="scrollbar" id="style-1">
+                                                <div class="card-body" style=" max-height: 350px;">
+                                                    <div class="force-overflow">
+                                                        <ul class="list-group list-group-flush" style="color: #6C7B97;">
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="1s">
+                                                                        США
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="1s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="2s">
+                                                                        Германия
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="2s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="3s">
+                                                                        Франция
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="3s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="4s">
+                                                                        Португалия
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="4s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="6s">
+                                                                        Беларусь
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="6s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="7s">
+                                                                        Россия
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="7s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="8s">
+                                                                        Испания
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="8s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="9s">
+                                                                        Греция
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="9s">
+                                                                </div>
+                                                            </li>
+
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="10s">
+                                                                        Польша
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="10s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="11s">
+                                                                        Казахстан
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="11s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="12s">
+                                                                        Турция
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="12s">
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item list-item-padding">
+                                                                <div class="form-check" style="padding-left:0;">
+                                                                    <label class="form-check-label" for="13s">
+                                                                        Китай
+                                                                    </label>
+                                                                    <input style="float: right;" class="form-check-input" type="checkbox" value="" id="13s">
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mb-4" style="border-color: #E0E9FF;">
+                                            <div class="card-header" style="color: #344863;">
+                                                Розничная цена
+                                            </div>
+                                            <div class="card-body" style=" max-height: 350px;">
+                                                <div id="RangeSlider1" class="range-slider">
+                                                    <div>
+                                                        <div class="range-slider-val-left"></div>
+                                                        <div class="range-slider-val-right"></div>
+                                                        <div class="range-slider-val-range"></div>
+
+                                                        <span class="range-slider-handle range-slider-handle-left"></span>
+                                                        <span class="range-slider-handle range-slider-handle-right"></span>
+
+                                                        <div class="range-slider-tooltip range-slider-tooltip-left">
+                                                            <span class="range-slider-tooltip-text"></span>
+                                                        </div>
+
+                                                        <div class="range-slider-tooltip range-slider-tooltip-right">
+                                                            <span class="range-slider-tooltip-text"></span>
+                                                        </div>
+                                                    </div>
+                                                    <input type="range" class="range-slider-input-left" tabindex="0" max="100" min="0" value="" step="1">
+                                                    <input type="range" class="range-slider-input-right" tabindex="0" max="100" value="" min="0" step="1">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-grid ">
+                                            <button class="btn btn-success">Применить</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col text-end ">
+                                <div class="dropdown">
+                                    <label for="sorting" class="me-3 hide-label-sorting" style="color: #344863;">Сортировать</label>
+                                    <button id="sorting" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Без фильтра
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Алфавит</a></li>
+                                        <li><a class="dropdown-item" href="#">Популярности</a></li>
+                                        <li><a class="dropdown-item" href="#">Оценки</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <a href="product.html">
+                                                <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                            </a>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="card " style="border-radius: 15px; border-color: #E0E9FF;">
+                                    <div class="text-center">
+                                        <div class="position-relative ">
+                                            <div class="position-absolute top-0 start-0 p-4">
+                                                <div class="hit mt-1">ХИТ</div>
+                                            </div>
+                                            <div class="position-absolute top-0 end-0 p-4"><button class="btn-primary btn btn-like rounded-circle text-center"><i
+                                                        class="bi bi-heart-fill"></i></button></div>
+                                        </div>
+                                        <a href="product.html">
+                                            <img src="static/img/home/img_catalog2.png" style="width: 60%;" class="pt-4 card-img-top text-center" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-title" style="color: #344863;">Bioderma Sensibio H2O
+                                        </h6>
+                                        <p class="card-text" style="color: #A8B1C1; font-size: 14px;"> NAOS, Франция</p>
+                                        <div class="row row-cols-2 display-card-show-fisrt">
+                                            <div class="col-auto">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5
+                                                </p>
+                                                <p style="color: #A8B1C1;"><i class="bi bi-pencil-square"></i> 2857</p>
+                                            </div>
+                                            <div class="col-8 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="row display-card-show-third">
+                                            <div class="col-md-6 col-6">
+                                                <p style="color:#F8A300;margin-bottom: 0;">
+                                                    <i class="bi bi-star"></i> 4.5 Звезды <br>
+                                                </p>
+                                                <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            </div>
+                                            <div class="col-md-6 col-6 text-end">
+                                                <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                        class="bi bi-cart3"></i> 89.35 руб.</a>
+                                            </div>
+                                        </div>
+                                        <div class="display-card-show-second">
+                                            <p style="color:#F8A300;margin-bottom: 0;">
+                                                <i class="bi bi-star"></i> 4.5 Звезды
+                                            </p>
+                                            <p style="color: #A8B1C1;">2857 Отзывов</p>
+                                            <a href="#" class="btn  btn-outline-primary background-icons background-button"><i
+                                                    class="bi bi-cart3"></i> 89.35 руб.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="mt-3" aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link" style="color: #344863;background: #F3F5FA">Предыдущий</a>
+                                </li>
+                                <li class="page-item disabled">
+                                    <a class="page-link" style="color: #344863;">
+                                        <font style="color: #C71878;">1</font> из 11
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" style="background: rgba(199, 24, 120, 0.15);color: #344863;" href="#">Следующий</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <footer class="py-3  footer-bacground">
+            <ul class="nav justify-content-center pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Главная</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Отзывы</a></li>
+                <li class="nav-item"><a href="pharmacy.html" class="nav-link px-2 text-white">Наши аптеки</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-white">Контакты</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link px-2 text-white">Новости</a></li>
+                <li class="nav-item"><a href="delivery.html" class="nav-link px-2 text-white">Доставка</a></li>
+                <li class="nav-item"><a href="how_to_by.html" class="nav-link px-2 text-white">Как купить</a></li>
+            </ul>
+            <p class="text-center text-white">Разработан компанией ЗАО "Фармасервис"</p>
+        </footer>
+    </section>
+    <!-- js -->
+    <script>
+        const collapseElementList = document.querySelectorAll('.collapse')
+        const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
+    </script>
+    <!-- <script src="static/js/bootstrap5/bootstrap.js"></script> -->
+    <script src="static/js/bootstrap5/bootstrap.bundle.js"></script>
+    <script src="static/js/bootstrap5/rangebardouble.js"></script>
+
+</body>
+
+</html>
